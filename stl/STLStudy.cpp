@@ -94,6 +94,19 @@ int main() {
 //        cout << *iteratorVar << endl;
 //    }
 
+//        set<int,greater<int>> setVar;
+//
+//        setVar.insert(1);
+//        setVar.insert(1);
+//        setVar.insert(2);
+//        setVar.insert(3);
+//        setVar.insert(4);
+//
+//        for(auto iteratorVar=setVar.begin();iteratorVar !=setVar.end();iteratorVar++){
+//            cout<<"iterator is " << *iteratorVar <<endl;
+//        }
+
+
 
     return 0;
 

@@ -8,6 +8,7 @@
 #include <vector>
 #include <stack>
 #include <queue>
+#include <list>
 
 using namespace std;
 class STLStudy {

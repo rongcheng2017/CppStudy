@@ -81,6 +81,19 @@ int main() {
 //        priorityQueue.pop();
 //    }
 
+//    list<int> listVar;
+//
+//    listVar.push_front(50);
+//    listVar.push_back(60);
+//    listVar.insert(listVar.begin(), 70);
+//    listVar.insert(listVar.end(), 80);
+//
+//    listVar.erase(listVar.begin());
+//
+//    for (auto iteratorVar = listVar.begin(); iteratorVar != listVar.end(); iteratorVar++) {
+//        cout << *iteratorVar << endl;
+//    }
+
 
     return 0;
 

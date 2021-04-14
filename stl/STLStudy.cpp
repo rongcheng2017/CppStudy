@@ -107,21 +107,37 @@ int main() {
 //        }
 
 
-    map<int, string> mapVar;
-    mapVar.insert(pair<int, string>(1, "YI"));
-    mapVar.insert(pair<int, string>(2, "ER"));
-    pair<map<int, string>::iterator, bool> result = mapVar.insert(pair<int, string>(2, "SAN"));
-    if (result.second) {
-        cout << "insert success" << endl;
-    } else {
-        cout << "insert failure" << endl;
+//    map<int, string> mapVar;
+//    mapVar.insert(pair<int, string>(1, "YI"));
+//    mapVar.insert(pair<int, string>(2, "ER"));
+//    pair<map<int, string>::iterator, bool> result = mapVar.insert(pair<int, string>(2, "SAN"));
+//    if (result.second) {
+//        cout << "insert success" << endl;
+//    } else {
+//        cout << "insert failure" << endl;
+//    }
+//
+//    for (auto item = mapVar.begin(); item != mapVar.end(); item++) {
+//        cout << item->first << ", " << item->second.c_str() << "\t";
+//    }
+
+
+    multimap<int, string> multimap;
+
+    multimap.insert(make_pair(10, "shi1 "));
+    multimap.insert(make_pair(10, "shi2 "));
+    multimap.insert(make_pair(10, "shi3 "));
+    multimap.insert(make_pair(30, "sanshi1 "));
+    multimap.insert(make_pair(30, "sanshi2 "));
+    multimap.insert(make_pair(30, "sanshi3 "));
+
+    multimap.insert(make_pair(20, "ershi1 "));
+    multimap.insert(make_pair(20, "ershi2 "));
+    multimap.insert(make_pair(20, "ershi3 "));
+
+    for(auto item = multimap.begin();item!=multimap.end();item++){
+        cout<< item->second<<endl;
     }
-
-    for (auto item = mapVar.begin(); item != mapVar.end(); item++) {
-        cout << item->first << ", " << item->second.c_str() << "\t";
-    }
-
-
 
     return 0;
 

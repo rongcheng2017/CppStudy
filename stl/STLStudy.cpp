@@ -66,20 +66,20 @@ int main() {
 //    从大到小
 //    priority_queue<int,vector<int>,less<int>> priorityQueue;
 //     从小到大
-    priority_queue<int, vector<int>, greater<int>> priorityQueue;
-
-    priorityQueue.push(10);
-    priorityQueue.push(20);
-    priorityQueue.push(30);
-    priorityQueue.push(40);
-    priorityQueue.push(50);
-    priorityQueue.push(60);
-
-    while (!priorityQueue.empty()) {
-        int front = priorityQueue.top();
-        cout << " priorityQueue front : " << front << endl;
-        priorityQueue.pop();
-    }
+//    priority_queue<int, vector<int>, greater<int>> priorityQueue;
+//
+//    priorityQueue.push(10);
+//    priorityQueue.push(20);
+//    priorityQueue.push(30);
+//    priorityQueue.push(40);
+//    priorityQueue.push(50);
+//    priorityQueue.push(60);
+//
+//    while (!priorityQueue.empty()) {
+//        int front = priorityQueue.top();
+//        cout << " priorityQueue front : " << front << endl;
+//        priorityQueue.pop();
+//    }
 
 
     return 0;

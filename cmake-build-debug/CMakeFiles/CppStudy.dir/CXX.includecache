@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/frc/CLionProjects/CppStudy/stl/STLStudy.cpp
+STLStudy.h
+/Users/frc/CLionProjects/CppStudy/stl/STLStudy.h
+
+/Users/frc/CLionProjects/CppStudy/stl/STLStudy.h
+iostream
+-
+vector
+-
+stack
+-
+queue
+-
+

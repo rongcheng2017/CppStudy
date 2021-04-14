@@ -107,6 +107,19 @@ int main() {
 //        }
 
 
+    map<int, string> mapVar;
+    mapVar.insert(pair<int, string>(1, "YI"));
+    mapVar.insert(pair<int, string>(2, "ER"));
+    pair<map<int, string>::iterator, bool> result = mapVar.insert(pair<int, string>(2, "SAN"));
+    if (result.second) {
+        cout << "insert success" << endl;
+    } else {
+        cout << "insert failure" << endl;
+    }
+
+    for (auto item = mapVar.begin(); item != mapVar.end(); item++) {
+        cout << item->first << ", " << item->second.c_str() << "\t";
+    }
 
     return 0;
 

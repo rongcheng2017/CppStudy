@@ -143,32 +143,32 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
-T16.o: T16.cpp.o
+memory/T17.o: memory/T17.cpp.o
 
-.PHONY : T16.o
+.PHONY : memory/T17.o
 
 # target to build an object file
-T16.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.o
-.PHONY : T16.cpp.o
+memory/T17.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/memory/T17.cpp.o
+.PHONY : memory/T17.cpp.o
 
-T16.i: T16.cpp.i
+memory/T17.i: memory/T17.cpp.i
 
-.PHONY : T16.i
+.PHONY : memory/T17.i
 
 # target to preprocess a source file
-T16.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.i
-.PHONY : T16.cpp.i
+memory/T17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/memory/T17.cpp.i
+.PHONY : memory/T17.cpp.i
 
-T16.s: T16.cpp.s
+memory/T17.s: memory/T17.cpp.s
 
-.PHONY : T16.s
+.PHONY : memory/T17.s
 
 # target to generate assembly for a file
-T16.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.s
-.PHONY : T16.cpp.s
+memory/T17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/memory/T17.cpp.s
+.PHONY : memory/T17.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
-	@echo "... T16.o"
-	@echo "... T16.i"
-	@echo "... T16.s"
+	@echo "... memory/T17.o"
+	@echo "... memory/T17.i"
+	@echo "... memory/T17.s"
 .PHONY : help
 
 

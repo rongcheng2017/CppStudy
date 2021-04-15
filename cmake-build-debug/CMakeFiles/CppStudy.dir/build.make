@@ -77,27 +77,27 @@ include CMakeFiles/CppStudy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppStudy.dir/flags.make
 
-CMakeFiles/CppStudy.dir/T16.cpp.o: CMakeFiles/CppStudy.dir/flags.make
-CMakeFiles/CppStudy.dir/T16.cpp.o: ../T16.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppStudy.dir/T16.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppStudy.dir/T16.cpp.o -c /Users/frc/CLionProjects/CppStudy/T16.cpp
+CMakeFiles/CppStudy.dir/memory/T17.cpp.o: CMakeFiles/CppStudy.dir/flags.make
+CMakeFiles/CppStudy.dir/memory/T17.cpp.o: ../memory/T17.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppStudy.dir/memory/T17.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppStudy.dir/memory/T17.cpp.o -c /Users/frc/CLionProjects/CppStudy/memory/T17.cpp
 
-CMakeFiles/CppStudy.dir/T16.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppStudy.dir/T16.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/frc/CLionProjects/CppStudy/T16.cpp > CMakeFiles/CppStudy.dir/T16.cpp.i
+CMakeFiles/CppStudy.dir/memory/T17.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppStudy.dir/memory/T17.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/frc/CLionProjects/CppStudy/memory/T17.cpp > CMakeFiles/CppStudy.dir/memory/T17.cpp.i
 
-CMakeFiles/CppStudy.dir/T16.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppStudy.dir/T16.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/frc/CLionProjects/CppStudy/T16.cpp -o CMakeFiles/CppStudy.dir/T16.cpp.s
+CMakeFiles/CppStudy.dir/memory/T17.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppStudy.dir/memory/T17.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/frc/CLionProjects/CppStudy/memory/T17.cpp -o CMakeFiles/CppStudy.dir/memory/T17.cpp.s
 
 # Object files for target CppStudy
 CppStudy_OBJECTS = \
-"CMakeFiles/CppStudy.dir/T16.cpp.o"
+"CMakeFiles/CppStudy.dir/memory/T17.cpp.o"
 
 # External object files for target CppStudy
 CppStudy_EXTERNAL_OBJECTS =
 
-CppStudy: CMakeFiles/CppStudy.dir/T16.cpp.o
+CppStudy: CMakeFiles/CppStudy.dir/memory/T17.cpp.o
 CppStudy: CMakeFiles/CppStudy.dir/build.make
 CppStudy: CMakeFiles/CppStudy.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppStudy"

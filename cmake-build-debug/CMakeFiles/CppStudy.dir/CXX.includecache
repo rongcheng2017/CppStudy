@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/frc/CLionProjects/CppStudy/T16.cpp
-T16.h
-/Users/frc/CLionProjects/CppStudy/T16.h
+/Users/frc/CLionProjects/CppStudy/memory/T17.cpp
+T17.h
+/Users/frc/CLionProjects/CppStudy/memory/T17.h
 
-/Users/frc/CLionProjects/CppStudy/T16.h
+/Users/frc/CLionProjects/CppStudy/memory/T17.h
 iostream
--
-memory
 -
 

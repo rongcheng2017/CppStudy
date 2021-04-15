@@ -13,6 +13,8 @@ PThread.h
 /Users/frc/CLionProjects/CppStudy/PThread.h
 unistd.h
 -
+queue
+-
 
 /Users/frc/CLionProjects/CppStudy/PThread.h
 pthread.h

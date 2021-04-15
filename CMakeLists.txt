@@ -4,4 +4,4 @@ project(CppStudy)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(CppStudy main.cpp Student.h Student.cpp)
-add_executable(CppStudy thread/WaitNotify.cpp thread/WaitNotify.h)
+add_executable(CppStudy  T16.cpp T16.h)

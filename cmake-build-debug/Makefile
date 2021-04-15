@@ -143,32 +143,32 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
-thread/WaitNotify.o: thread/WaitNotify.cpp.o
+T16.o: T16.cpp.o
 
-.PHONY : thread/WaitNotify.o
+.PHONY : T16.o
 
 # target to build an object file
-thread/WaitNotify.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o
-.PHONY : thread/WaitNotify.cpp.o
+T16.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.o
+.PHONY : T16.cpp.o
 
-thread/WaitNotify.i: thread/WaitNotify.cpp.i
+T16.i: T16.cpp.i
 
-.PHONY : thread/WaitNotify.i
+.PHONY : T16.i
 
 # target to preprocess a source file
-thread/WaitNotify.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.i
-.PHONY : thread/WaitNotify.cpp.i
+T16.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.i
+.PHONY : T16.cpp.i
 
-thread/WaitNotify.s: thread/WaitNotify.cpp.s
+T16.s: T16.cpp.s
 
-.PHONY : thread/WaitNotify.s
+.PHONY : T16.s
 
 # target to generate assembly for a file
-thread/WaitNotify.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.s
-.PHONY : thread/WaitNotify.cpp.s
+T16.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T16.cpp.s
+.PHONY : T16.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
-	@echo "... thread/WaitNotify.o"
-	@echo "... thread/WaitNotify.i"
-	@echo "... thread/WaitNotify.s"
+	@echo "... T16.o"
+	@echo "... T16.i"
+	@echo "... T16.s"
 .PHONY : help
 
 

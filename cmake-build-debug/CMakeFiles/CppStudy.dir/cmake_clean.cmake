@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o"
+  "CMakeFiles/CppStudy.dir/T16.cpp.o"
   "CppStudy"
   "CppStudy.pdb"
 )

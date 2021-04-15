@@ -143,32 +143,32 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
-PThread.o: PThread.cpp.o
+thread/WaitNotify.o: thread/WaitNotify.cpp.o
 
-.PHONY : PThread.o
+.PHONY : thread/WaitNotify.o
 
 # target to build an object file
-PThread.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.o
-.PHONY : PThread.cpp.o
+thread/WaitNotify.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o
+.PHONY : thread/WaitNotify.cpp.o
 
-PThread.i: PThread.cpp.i
+thread/WaitNotify.i: thread/WaitNotify.cpp.i
 
-.PHONY : PThread.i
+.PHONY : thread/WaitNotify.i
 
 # target to preprocess a source file
-PThread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.i
-.PHONY : PThread.cpp.i
+thread/WaitNotify.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.i
+.PHONY : thread/WaitNotify.cpp.i
 
-PThread.s: PThread.cpp.s
+thread/WaitNotify.s: thread/WaitNotify.cpp.s
 
-.PHONY : PThread.s
+.PHONY : thread/WaitNotify.s
 
 # target to generate assembly for a file
-PThread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.s
-.PHONY : PThread.cpp.s
+thread/WaitNotify.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.s
+.PHONY : thread/WaitNotify.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
-	@echo "... PThread.o"
-	@echo "... PThread.i"
-	@echo "... PThread.s"
+	@echo "... thread/WaitNotify.o"
+	@echo "... thread/WaitNotify.i"
+	@echo "... thread/WaitNotify.s"
 .PHONY : help
 
 

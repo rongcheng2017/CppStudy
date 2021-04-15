@@ -51,7 +51,6 @@ int main() {
     for (int i = 0; i < 10; ++i) {
         pthread_create(&pthreadIdArray[i], 0, task, &i);
     }
-
     //销毁互斥锁
     pthread_mutex_destroy(&mt);
     return 0;

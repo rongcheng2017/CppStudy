@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/frc/CLionProjects/CppStudy/PThread.cpp
+/Users/frc/CLionProjects/CppStudy/thread/WaitNotify.cpp
+WaitNotify.h
+/Users/frc/CLionProjects/CppStudy/thread/WaitNotify.h
+
+/Users/frc/CLionProjects/CppStudy/thread/WaitNotify.h
+pthread.h
+-
 iostream
 -
-PThread.h
-/Users/frc/CLionProjects/CppStudy/PThread.h
 unistd.h
 -
-queue
+string
 -
-
-/Users/frc/CLionProjects/CppStudy/PThread.h
-pthread.h
+queue
 -
 

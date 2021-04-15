@@ -77,27 +77,27 @@ include CMakeFiles/CppStudy.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppStudy.dir/flags.make
 
-CMakeFiles/CppStudy.dir/PThread.cpp.o: CMakeFiles/CppStudy.dir/flags.make
-CMakeFiles/CppStudy.dir/PThread.cpp.o: ../PThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppStudy.dir/PThread.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppStudy.dir/PThread.cpp.o -c /Users/frc/CLionProjects/CppStudy/PThread.cpp
+CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o: CMakeFiles/CppStudy.dir/flags.make
+CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o: ../thread/WaitNotify.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o -c /Users/frc/CLionProjects/CppStudy/thread/WaitNotify.cpp
 
-CMakeFiles/CppStudy.dir/PThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppStudy.dir/PThread.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/frc/CLionProjects/CppStudy/PThread.cpp > CMakeFiles/CppStudy.dir/PThread.cpp.i
+CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/frc/CLionProjects/CppStudy/thread/WaitNotify.cpp > CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.i
 
-CMakeFiles/CppStudy.dir/PThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppStudy.dir/PThread.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/frc/CLionProjects/CppStudy/PThread.cpp -o CMakeFiles/CppStudy.dir/PThread.cpp.s
+CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/frc/CLionProjects/CppStudy/thread/WaitNotify.cpp -o CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.s
 
 # Object files for target CppStudy
 CppStudy_OBJECTS = \
-"CMakeFiles/CppStudy.dir/PThread.cpp.o"
+"CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o"
 
 # External object files for target CppStudy
 CppStudy_EXTERNAL_OBJECTS =
 
-CppStudy: CMakeFiles/CppStudy.dir/PThread.cpp.o
+CppStudy: CMakeFiles/CppStudy.dir/thread/WaitNotify.cpp.o
 CppStudy: CMakeFiles/CppStudy.dir/build.make
 CppStudy: CMakeFiles/CppStudy.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/frc/CLionProjects/CppStudy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppStudy"

@@ -31,7 +31,7 @@ public:
 
     void setName(char *name);
 
-    int getAge();
+    int  getAge();
 
     char *getName();
 };

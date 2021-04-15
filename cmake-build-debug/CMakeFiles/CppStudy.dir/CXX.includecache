@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/frc/CLionProjects/CppStudy/stl/STLStudy.cpp
-STLStudy.h
-/Users/frc/CLionProjects/CppStudy/stl/STLStudy.h
+/Users/frc/CLionProjects/CppStudy/T11.cpp
+T11.h
+/Users/frc/CLionProjects/CppStudy/T11.h
 
-/Users/frc/CLionProjects/CppStudy/stl/STLStudy.h
+/Users/frc/CLionProjects/CppStudy/T11.h
 iostream
--
-vector
--
-stack
--
-queue
--
-list
--
-set
--
-map
 -
 

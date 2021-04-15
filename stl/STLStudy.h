@@ -12,6 +12,8 @@
 #include <set>
 #include <map>
 
+#include <algorithm>
+
 using namespace std;
 class STLStudy {
 

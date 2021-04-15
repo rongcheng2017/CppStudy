@@ -4,7 +4,20 @@
 
 #include "STLStudy.h"
 
-
+//仿函数
+class showActionObj {
+private:
+    int count;
+public:
+    void operator()(int content) {
+        count++;
+        cout << "自定义防函数" << content << endl;
+    }
+};
+//一元谓词  回调函数
+void showAction(int content){
+    cout << "自定义一元谓词" << content << endl;
+}
 int main() {
 //    vector<int> vector1(10);
 //    vector<int> vector2(10, 0);
@@ -94,18 +107,19 @@ int main() {
 //        cout << *iteratorVar << endl;
 //    }
 
-//        set<int,greater<int>> setVar;
-//
-//        setVar.insert(1);
-//        setVar.insert(1);
-//        setVar.insert(2);
-//        setVar.insert(3);
-//        setVar.insert(4);
-//
-//        for(auto iteratorVar=setVar.begin();iteratorVar !=setVar.end();iteratorVar++){
-//            cout<<"iterator is " << *iteratorVar <<endl;
-//        }
+    set<int, greater<int>> setVar;
 
+    setVar.insert(1);
+    setVar.insert(1);
+    setVar.insert(2);
+    setVar.insert(3);
+    setVar.insert(4);
+
+    for (auto iteratorVar = setVar.begin(); iteratorVar != setVar.end(); iteratorVar++) {
+        cout << "iterator is " << *iteratorVar << endl;
+    }
+
+    for_each(setVar.begin(), setVar.end(), showAction);
 
 //    map<int, string> mapVar;
 //    mapVar.insert(pair<int, string>(1, "YI"));
@@ -122,22 +136,22 @@ int main() {
 //    }
 
 
-    multimap<int, string> multimap;
-
-    multimap.insert(make_pair(10, "shi1 "));
-    multimap.insert(make_pair(10, "shi2 "));
-    multimap.insert(make_pair(10, "shi3 "));
-    multimap.insert(make_pair(30, "sanshi1 "));
-    multimap.insert(make_pair(30, "sanshi2 "));
-    multimap.insert(make_pair(30, "sanshi3 "));
-
-    multimap.insert(make_pair(20, "ershi1 "));
-    multimap.insert(make_pair(20, "ershi2 "));
-    multimap.insert(make_pair(20, "ershi3 "));
-
-    for(auto item = multimap.begin();item!=multimap.end();item++){
-        cout<< item->second<<endl;
-    }
+//    multimap<int, string> multimap;
+//
+//    multimap.insert(make_pair(10, "shi1 "));
+//    multimap.insert(make_pair(10, "shi2 "));
+//    multimap.insert(make_pair(10, "shi3 "));
+//    multimap.insert(make_pair(30, "sanshi1 "));
+//    multimap.insert(make_pair(30, "sanshi2 "));
+//    multimap.insert(make_pair(30, "sanshi3 "));
+//
+//    multimap.insert(make_pair(20, "ershi1 "));
+//    multimap.insert(make_pair(20, "ershi2 "));
+//    multimap.insert(make_pair(20, "ershi3 "));
+//
+//    for(auto item = multimap.begin();item!=multimap.end();item++){
+//        cout<< item->second<<endl;
+//    }
 
     return 0;
 

@@ -143,32 +143,32 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
-stl/STLStudy.o: stl/STLStudy.cpp.o
+T11.o: T11.cpp.o
 
-.PHONY : stl/STLStudy.o
+.PHONY : T11.o
 
 # target to build an object file
-stl/STLStudy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/stl/STLStudy.cpp.o
-.PHONY : stl/STLStudy.cpp.o
+T11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.o
+.PHONY : T11.cpp.o
 
-stl/STLStudy.i: stl/STLStudy.cpp.i
+T11.i: T11.cpp.i
 
-.PHONY : stl/STLStudy.i
+.PHONY : T11.i
 
 # target to preprocess a source file
-stl/STLStudy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/stl/STLStudy.cpp.i
-.PHONY : stl/STLStudy.cpp.i
+T11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.i
+.PHONY : T11.cpp.i
 
-stl/STLStudy.s: stl/STLStudy.cpp.s
+T11.s: T11.cpp.s
 
-.PHONY : stl/STLStudy.s
+.PHONY : T11.s
 
 # target to generate assembly for a file
-stl/STLStudy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/stl/STLStudy.cpp.s
-.PHONY : stl/STLStudy.cpp.s
+T11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.s
+.PHONY : T11.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
-	@echo "... stl/STLStudy.o"
-	@echo "... stl/STLStudy.i"
-	@echo "... stl/STLStudy.s"
+	@echo "... T11.o"
+	@echo "... T11.i"
+	@echo "... T11.s"
 .PHONY : help
 
 

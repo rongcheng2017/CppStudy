@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/frc/CLionProjects/CppStudy/T11.cpp
-T11.h
-/Users/frc/CLionProjects/CppStudy/T11.h
+/Users/frc/CLionProjects/CppStudy/Thread.cpp
+Thread.h
+/Users/frc/CLionProjects/CppStudy/Thread.h
 
-/Users/frc/CLionProjects/CppStudy/T11.h
+/Users/frc/CLionProjects/CppStudy/Thread.h
 iostream
+-
+thread
+-
+unistd.h
 -
 

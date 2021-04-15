@@ -143,32 +143,59 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
-T11.o: T11.cpp.o
+PThread.o: PThread.cpp.o
 
-.PHONY : T11.o
+.PHONY : PThread.o
 
 # target to build an object file
-T11.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.o
-.PHONY : T11.cpp.o
+PThread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.o
+.PHONY : PThread.cpp.o
 
-T11.i: T11.cpp.i
+PThread.i: PThread.cpp.i
 
-.PHONY : T11.i
+.PHONY : PThread.i
 
 # target to preprocess a source file
-T11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.i
-.PHONY : T11.cpp.i
+PThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.i
+.PHONY : PThread.cpp.i
 
-T11.s: T11.cpp.s
+PThread.s: PThread.cpp.s
 
-.PHONY : T11.s
+.PHONY : PThread.s
 
 # target to generate assembly for a file
-T11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/T11.cpp.s
-.PHONY : T11.cpp.s
+PThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.s
+.PHONY : PThread.cpp.s
+
+Thread.o: Thread.cpp.o
+
+.PHONY : Thread.o
+
+# target to build an object file
+Thread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.o
+.PHONY : Thread.cpp.o
+
+Thread.i: Thread.cpp.i
+
+.PHONY : Thread.i
+
+# target to preprocess a source file
+Thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.i
+.PHONY : Thread.cpp.i
+
+Thread.s: Thread.cpp.s
+
+.PHONY : Thread.s
+
+# target to generate assembly for a file
+Thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.s
+.PHONY : Thread.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
-	@echo "... T11.o"
-	@echo "... T11.i"
-	@echo "... T11.s"
+	@echo "... PThread.o"
+	@echo "... PThread.i"
+	@echo "... PThread.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
 .PHONY : help
 
 

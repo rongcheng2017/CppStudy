@@ -4,4 +4,4 @@ project(CppStudy)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(CppStudy main.cpp Student.h Student.cpp)
-add_executable(CppStudy  T11.cpp T11.h)
+add_executable(CppStudy Thread.cpp Thread.h PThread.cpp PThread.h)

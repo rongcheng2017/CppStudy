@@ -80,10 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/frc/CLionProjects/CppStudy/T11.cpp">
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/PThread.cpp">
 			<Option target="CppStudy"/>
 		</Unit>
-		<Unit filename="/Users/frc/CLionProjects/CppStudy/T11.h">
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/PThread.h">
+			<Option target="CppStudy"/>
+		</Unit>
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/Thread.cpp">
+			<Option target="CppStudy"/>
+		</Unit>
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/Thread.h">
 			<Option target="CppStudy"/>
 		</Unit>
 		<Unit filename="/Users/frc/CLionProjects/CppStudy/CMakeLists.txt">

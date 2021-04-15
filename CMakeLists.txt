@@ -4,4 +4,4 @@ project(CppStudy)
 set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(CppStudy main.cpp Student.h Student.cpp)
-add_executable(CppStudy  memory/T17.cpp memory/T17.h)
+add_executable(CppStudy  memory/T17.cpp memory/T17.h cast/Cast.cpp cast/Cast.h)

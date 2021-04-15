@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/cast/Cast.cpp">
+			<Option target="CppStudy"/>
+		</Unit>
+		<Unit filename="/Users/frc/CLionProjects/CppStudy/cast/Cast.h">
+			<Option target="CppStudy"/>
+		</Unit>
 		<Unit filename="/Users/frc/CLionProjects/CppStudy/memory/T17.cpp">
 			<Option target="CppStudy"/>
 		</Unit>

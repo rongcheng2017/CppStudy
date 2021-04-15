@@ -143,6 +143,33 @@ CppStudy/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/build
 .PHONY : CppStudy/fast
 
+cast/Cast.o: cast/Cast.cpp.o
+
+.PHONY : cast/Cast.o
+
+# target to build an object file
+cast/Cast.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/cast/Cast.cpp.o
+.PHONY : cast/Cast.cpp.o
+
+cast/Cast.i: cast/Cast.cpp.i
+
+.PHONY : cast/Cast.i
+
+# target to preprocess a source file
+cast/Cast.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/cast/Cast.cpp.i
+.PHONY : cast/Cast.cpp.i
+
+cast/Cast.s: cast/Cast.cpp.s
+
+.PHONY : cast/Cast.s
+
+# target to generate assembly for a file
+cast/Cast.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/cast/Cast.cpp.s
+.PHONY : cast/Cast.cpp.s
+
 memory/T17.o: memory/T17.cpp.o
 
 .PHONY : memory/T17.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CppStudy"
+	@echo "... cast/Cast.o"
+	@echo "... cast/Cast.i"
+	@echo "... cast/Cast.s"
 	@echo "... memory/T17.o"
 	@echo "... memory/T17.i"
 	@echo "... memory/T17.s"

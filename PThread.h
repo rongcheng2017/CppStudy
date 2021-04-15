@@ -5,7 +5,9 @@
 #ifndef CPPSTUDY_PTHREAD_H
 #define CPPSTUDY_PTHREAD_H
 
+#include <pthread.h>
 
+using namespace std;
 class PThread {
 
 };

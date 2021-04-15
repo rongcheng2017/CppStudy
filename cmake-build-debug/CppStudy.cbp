@@ -86,12 +86,6 @@
 		<Unit filename="/Users/frc/CLionProjects/CppStudy/PThread.h">
 			<Option target="CppStudy"/>
 		</Unit>
-		<Unit filename="/Users/frc/CLionProjects/CppStudy/Thread.cpp">
-			<Option target="CppStudy"/>
-		</Unit>
-		<Unit filename="/Users/frc/CLionProjects/CppStudy/Thread.h">
-			<Option target="CppStudy"/>
-		</Unit>
 		<Unit filename="/Users/frc/CLionProjects/CppStudy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -170,33 +170,6 @@ PThread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/PThread.cpp.s
 .PHONY : PThread.cpp.s
 
-Thread.o: Thread.cpp.o
-
-.PHONY : Thread.o
-
-# target to build an object file
-Thread.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.o
-.PHONY : Thread.cpp.o
-
-Thread.i: Thread.cpp.i
-
-.PHONY : Thread.i
-
-# target to preprocess a source file
-Thread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.i
-.PHONY : Thread.cpp.i
-
-Thread.s: Thread.cpp.s
-
-.PHONY : Thread.s
-
-# target to generate assembly for a file
-Thread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppStudy.dir/build.make CMakeFiles/CppStudy.dir/Thread.cpp.s
-.PHONY : Thread.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,9 +182,6 @@ help:
 	@echo "... PThread.o"
 	@echo "... PThread.i"
 	@echo "... PThread.s"
-	@echo "... Thread.o"
-	@echo "... Thread.i"
-	@echo "... Thread.s"
 .PHONY : help
 
 
